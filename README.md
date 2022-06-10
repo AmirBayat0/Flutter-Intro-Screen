@@ -1,11 +1,10 @@
 # Introduction Screens using Flutter
 ## Preview
-
+![git](https://user-images.githubusercontent.com/91388754/173004175-66dab1aa-8ffc-474c-9952-4b7887e5ce24.gif)
 ## Links
 ### Support Me
 <a href="https://www.buymeacoffee.com/AmirBayat"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 ### Socials
-
 <p align="left"> 
 <a href="http://www.instagram.com/codewithflexz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>
 <a href="https://www.youtube.com/c/ProgrammingWithFlexZ" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a>
