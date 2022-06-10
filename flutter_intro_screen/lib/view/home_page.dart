@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                       /// GET STARTED BTN
                       ? GetStartBtn(size: size, textTheme: textTheme)
 
-                      /// GET STARTED BTN
+                      /// SKIP BTN
                       : SkipBtn(
                           size: size,
                           textTheme: textTheme,
