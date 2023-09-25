@@ -2,6 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_intro_screen/utils/colors.dart';
 import 'package:flutter_intro_screen/view/home_page.dart';
 
+//
+// Created by CodeWithFlexZ
+// Tutorials on my YouTube
+//
+//! Instagram
+//! @CodeWithFlexZ
+//
+//? GitHub
+//? AmirBayat0
+//
+//* YouTube
+//* Programming with FlexZ
+//
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,29 +30,29 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Intro Screen',
       theme: ThemeData(
           textTheme: const TextTheme(
-        headline1: TextStyle(
-          fontSize: 25,
+        displayLarge: TextStyle(
+          fontSize: 30,
           color: MyColors.titleTextColor,
           fontWeight: FontWeight.bold,
         ),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
             fontSize: 18,
             color: MyColors.subTitleTextColor,
             fontWeight: FontWeight.w400,
             wordSpacing: 1.2,
             height: 1.2),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
           fontSize: 18,
           color: MyColors.titleTextColor,
           fontWeight: FontWeight.bold,
         ),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
           fontSize: 18,
           color: Colors.white,
           fontWeight: FontWeight.bold,
         ),
       )),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

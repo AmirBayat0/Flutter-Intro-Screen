@@ -1,7 +1,9 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_intro_screen/utils/colors.dart';
+import 'package:flutter_intro_screen/view/main_home.dart';
 
-class GetStartBtn extends StatelessWidget {
+class GetStartBtn extends StatefulWidget {
   const GetStartBtn({
     Key? key,
     required this.size,
@@ -12,17 +14,45 @@ class GetStartBtn extends StatelessWidget {
   final TextTheme textTheme;
 
   @override
+  State<GetStartBtn> createState() => _GetStartBtnState();
+}
+
+class _GetStartBtnState extends State<GetStartBtn> {
+  bool isLoading = false;
+
+  loadingHandler() {
+    setState(() {
+      isLoading = true;
+      Future.delayed(const Duration(seconds: 2)).then((value) {
+        isLoading = false;
+        Navigator.pushReplacement(
+            context, CupertinoPageRoute(builder: (_) => const MainHome()));
+      });
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: loadingHandler,
       child: Container(
         margin: const EdgeInsets.only(top: 60),
-        width: size.width / 1.5,
-        height: size.height / 13,
+        width: widget.size.width / 1.5,
+        height: widget.size.height / 13,
         decoration: BoxDecoration(
             color: MyColors.btnColor, borderRadius: BorderRadius.circular(15)),
         child: Center(
-          child: Text("Get Started now", style: textTheme.headline4),
+          child: isLoading
+              ? const Center(
+                  child: SizedBox(
+                    width: 30,
+                    height: 30,
+                    child: CircularProgressIndicator(
+                      color: Colors.white,
+                    ),
+                  ),
+                )
+              : Text("Get Started now", style: widget.textTheme.headlineMedium),
         ),
       ),
     );
@@ -58,7 +88,7 @@ class SkipBtn extends StatelessWidget {
         onTap: onTap,
         splashColor: MyColors.btnBorderColor,
         child: Center(
-          child: Text("Skip", style: textTheme.headline3),
+          child: Text("Skip", style: textTheme.displaySmall),
         ),
       ),
     );
