@@ -1,12 +1,12 @@
 # Introduction Screens using Flutter
 ## Preview
-![git](https://user-images.githubusercontent.com/91388754/173004175-66dab1aa-8ffc-474c-9952-4b7887e5ce24.gif)
-## Links
-### Support Me
-<a href="https://www.buymeacoffee.com/AmirBayat"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
-### Socials
-<p align="left"> 
-<a href="http://www.instagram.com/codewithflexz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>
-<a href="https://www.youtube.com/c/ProgrammingWithFlexZ" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a>
-<a href="https://znap.link/CodeWithFlexz" target="_blank" rel="noreferrer"><img src="https://uploads-ssl.webflow.com/6026bc921eff07d61a132750/602843b7b4409e5ea0cbcc1c_social-logo-2.png" width="32" height="32" /></a>
-</p>
+![Untitled](https://github.com/AmirBayat0/Flutter-Intro-Screen/assets/91388754/81e637f5-33a1-40d0-a543-61ce01ec9795)
+
+## This link allows you to support me, and I really appreciate your help:
+* [SUPPORT](https://www.buymeacoffee.com/AmirBayat)
+
+## My Socials:
+* [INSTAGRAM](https://www.instagram.com/codewithflexz)
+* [YOUTUBE]( https://www.youtube.com/c/ProgrammingWithFlexZ)
+* [CONTACT ME](https://amirbayat.dev@gmail.com)
+* [FIND MORE](https://zaap.bio/CodeWithFlexz)
